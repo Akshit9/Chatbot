@@ -1,0 +1,83 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "about_tesco",
+         "patterns": ["What type of company is Tesco?", "How many countries is Tesco in?", "Who created Tesco?", "Who owns Tesco now?"],
+         "responses": ["Tesco is a retail company", "Tesco has expanded its operations from the UK to 11 other countries in the world.", "Sir John Edward Cohen was an English grocer who founded the Tesco supermarket chain.", "Tesco is a multinational retailer owned by Tesco PLC from the United Kingdom."],
+         "context": [""]
+        },
+        {"tag": "help",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you through your queries regarding to Tesco shopping", "I can help in providing details of our offers and return policies", "I can tell about our store details and clear your queries regarding to Tesco store", 
+                     "We offer customer friendly support to our customers"],
+         "context": [""]
+        },
+        {"tag": "sell",
+         "patterns": ["What do you sell?", "Do you sell all products", "Will you sell alcohol?", "What products do you sell?", "Which products will you sell?"],
+         "responses": ["We will sell grocieries and household products", "Yes, we will sell all products", "We will sell alcohol as well as grocieries"],
+         "context": [""]
+        },
+        {"tag": "online_deliveries",
+         "patterns": ["Will you provide online deliveries", "Will you delivery grocieries to home?", "What is the price to deliver products online", "How much we need to spend for online deliveries" ],
+         "responses": ["Yes, We will provide online deliveries", "Yes, We have proper delivery services", "Tesco charges between £3 and £4.50 for home deliveries depending on the time slot you choose", "It depends on your purchase and time slots"],
+         "context": [""]
+        },
+        {"tag": "offers",
+         "patterns": ["Are the offers similar in every tesco superstore across UK?", "Is tesco offers are similar across UK?", "Is there any student offers in Tesco?", "Tesco offers are constant all the time?"],
+         "responses": ["Yes, the offers remain the same in every superstore", "Yes, every tesco store offers are similar across UK", "No, we don't provide such offers in our store", "No, it varies each day"],
+         "context": [""]
+        },
+        {"tag": "clubcard",
+         "patterns": ["What is a clubcard?", "Do I need to pay for clubcard?", "Any validity for clubcard?", "Is this clubcard physical or online?"],
+         "responses": ["Tesco clubcard is a loyalty card where members can earn points based on the amount they spend when they shop", "It is completely free to sign up for a Tesco Clubcard, so it's worth signing up", "Your vouchers have a two-year validity period. You won't be able to use them once they've expired, so be sure you don't lose track of them", "You can use it both ways."],
+         "context": [""]
+        },
+        {"tag": "payment",
+         "patterns": ["What credit/debit cards do you accept for payments?", "Do you accept American Express?", "Do you accept Maestro Cards?", "How secure is the payment?"],
+         "responses": ["You can pay with Visa, Mastercard, American Express, Maestro, Visa Debit, Clubcard Plus, Tesco Bank credit cards and Tesco Bank debit cards", "Yes, we do accept American Express", "No, we don't accept", 
+              "we use the latest encryption techniques, featuring Secure Sockets Layer technology for personal and sensitive information"],
+         "context": [""]
+        },
+        {"tag": "timings",
+         "patterns": ["Is there any Tesco store in my location?", "How do i reach Tesco store at my location?", "Till what time store is opened at my location?", "Is Tesco Pharmacy available now at my location?"],
+         "responses": ["Use our store locator to find a store near you and store details for the it's timings"],
+         "context": [""]
+        },
+        {"tag": "partime_jobs",
+         "patterns": ["Where can I find part-time jobs at Tesco?", "What job benefits does Tesco provide for employees?", "Do I need to signup for applying a job?", "Where do i see status of my application?"],
+         "responses": ["Explore our open opportunities in your area and across the UK in Career section", "Explore the employee benefits under benefits section in explore-our-world", "Yes, Please refer sign up link at Career section",
+              "Status can be found under View and manage your applications section"],
+         "context": [""]
+        },       
+        {"tag": "returns",
+         "patterns": ["What is Tesco return policy?", "Can I return my store purchases?", "How do i return my F & F clothing purachased online?", "How to return gift cards?", "How do i return movies and gaming softwares?"],
+         "responses": ["Tesco offers a 30 days return window with a proof of purchase", "Yes, You can return the item to a store, preferably the one you purchased it fromor any Tesco store with a proof of purchase", 
+              "Please return the item in its original condition, with any packaging, labels and price tags with in 100 days of purchase", "Return and refund on Gift cards is not acceptable", "Return on Items sold in card format will not be accepted"],
+         "context": [""]
+        },
+        {"tag": "cash",
+         "patterns": ["Will you accept cash in-store?", "Do you accept cash on delivery?" ],
+         "responses": ["Yes, we will accept cash in-store as well as online deliveries"],
+         "context": [""]
+        },
+        {"tag": "giftcards",
+         "patterns": ["Is gift cards available in tesco?", "How can I buy a Tesco gift card?", "If I loose a gift cards can I replace it ?", "Do I receive Clubcard points for purchasing Tesco gift cards?"],
+         "responses": ["yes we do provide giftcards from our website", "Just choose your favourite design from a range of Tesco gift cards in-store, then load the card with money at the till. There’s a purchase limit of a maximum of 5 of one type of gift cards in store.", 
+              "No, Gift cards are like money where once you lost it you can get it back", "No. You don’t earn Clubcard points when you buy a Tesco gift card"],
+         "context": [""]
+        }
+   ]
+}
